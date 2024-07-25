@@ -1,0 +1,247 @@
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    html, body {
+                height: 100%;
+                margin: 0;
+                padding :0;
+            }
+            .ultimate{
+                flex-direction : column;
+            }
+            .ultimate {
+                display: flex;
+                background: peachpuff;
+                
+                height: 100%;
+                width: 100%;
+                box-sizing: border-box;
+            }
+           
+            .mainintro {
+      background: #1f2937;
+      
+      height: 80px;
+      flex: 4 1 auto;
+      
+      
+      
+    }
+    .information{
+      background: white;
+      height: 10px;
+      flex: 3 1 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      justify-content: center;
+      flex-direction: column;
+    }.Quote {
+      background: #e5e7eb;
+      height: 80px;
+      flex: 4 1 auto;
+      display: flex;
+      flex-direction: column;
+      
+      /*flex-direction : row;*/
+    }
+    .header{
+        display : flex;
+        gap: 50%;
+        justify-content: center;
+        
+        align-items:center;
+    }
+    .head1{
+     color: white;
+    
+    }
+    .head2{
+        font-size:10px;
+      color:white;
+    }
+    /*.head2 span {
+        margin: 0 10px; 
+    }*/
+    .webstuff {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 5px; /* Optional padding for better layout */
+    }
+    
+    .stuff1, .stuff2 {
+        flex: 1; 
+        margin: 0 10px; 
+    }
+    
+    .stuff1 {
+        text-align: left; 
+    }
+    
+    .stuff2 {
+        text-align: right; 
+    }
+    
+    img {
+        max-width: 90%; 
+        height: auto; 
+    }
+    .infogrid{
+        height: 160px;
+      padding: 10px;
+      background:white;
+      
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      gap: 15px;
+    }
+    .grid1{
+        width: 100px;
+      height: 100px;
+      font-size:15px;
+      background: white;
+      border-radius:1px;
+    }.grid2{
+        width: 100px;
+      height: 100px;
+      font-size:15px;
+      background: white;
+      border-radius:1px;
+    }
+    .grid3{
+        width: 100px;
+      height: 100px;
+      font-size:15px;
+      background: white;
+      border-radius:1px;
+    }
+    .grid4{
+        width: 100px;
+      height: 100px;
+      font-size:15px;
+      background: white;
+      border-radius:1px;
+    }
+    .quote{
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact{
+        display: flex;
+        background:white;
+      height: 50%;
+      display: flex;
+      padding-left: 10%;
+      padding-right: 10%;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .signup{
+        display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 60px; 
+     
+      background: #3882f6;
+      border-radius: 7px;
+      color: white;
+   
+}
+     
+    .right{
+        display: flex;
+        background-color:#1f2937;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+      flex-direction: column;
+    color :white;
+    }
+    
+        </style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> elle</title>
+           </head>
+    
+    <body>
+       <div class ="ultimate"  id = "top">
+    <div class = "mainintro" >
+        <div class = "header"> 
+            <div class ="head1"  > <b>Le goat</b></div>
+            <div class = "head2"  >    <span><a href="#top">About</a></span>
+                <span><a href="#mid"> Info</a></span>
+                <span><a href="#midbot">Quote</a></span>
+            </div>
+        </div>
+        <div class="webstuff">
+            <div class="stuff1">
+                <h1>Gims</h1>
+                <p>This is Gims, a French singer known for most French hits in the last decade.</p>
+                <button style ="border:blue; border-radius:5px ;color:white; background-color:blue"
+                onclick ="alert('Dans une minute')">Sign up</button>
+           
+            </div>
+            <div class="stuff2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/MAITRE_GIMS_4.jpg" height="100px">
+            </div>
+        </div>
+    </div>
+    <div class = "information" id = "mid" >
+        <div style = "text-align:center">
+        <h2> Some random information</h2>
+        </div>
+        <div class ="infogrid">
+    <div class="grid1"> <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Subliminal-album-by-maitre-gims.jpg"alt="Subliminal Album" font-size>
+        <p>Album: Subliminal</p></div>
+    <div class="grid2"><img src="https://upload.wikimedia.org/wikipedia/en/6/68/Maitre_gims-mon_coeur_avait_raison.jpg"alt="Mon Coeur Avait Raison">
+        <p>Album: Mon Coeur Avait Raison</p>
+    </div>
+    <div class="grid3"><img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Ceinture_noir_gims.jpg"alt="Ceinture Noire">
+        <p>Album: Ceinture Noire</p>
+    </div>
+    <div class="grid4"><img src="https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F49090e5ff8aa9739094c256df68ace6f.600x600x1.jpg"alt="Album">
+        <p>Single: seya</p>
+        </div>
+       </div>
+    
+        </div>
+    
+    <div class = "Quote" id = "midbot">
+        <div class = "quote" style = "text-align: center;">
+    <p> "Moi je suis resté moi-même
+        Peu importe ce qu'ils pensent
+        J'ai su rester le même
+        J'ai pas perdu ma chance"</p>
+        <span><b>-Gims</b></span>
+        </div>
+        <div class = "contact">
+    <div class =" signup"> 
+    <div class = "gas"><b> Call to action! it's tim</b>e<br><span>Sign up for our product by clicking that button right over there! </span><span>  <button style ="border:black; border-radius:5px ;color:white; background-color:blue"
+        onclick ="alert('Dans une minute')" style = "font-size: 10px;">Sign up</button>
+    </span></div>
+    </div>
+        </div>
+        <div class = "right">
+    <div class = "capiche"> </div>
+    Copyright © The Odin Project 2024
+        </div>
+            </div>
+    
+    
+       </div>
+        </body>
+    
+    </html>
